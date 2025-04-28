@@ -18,9 +18,29 @@ public class Main
 	    System.out.print("Digite o valor da uva:" );
 	    int uva = entrada.nextInt();
 	    
-	    System.out.print("Resultado:" + (laranja + uva));
+	    System.out.println("Resultado:" + (laranja + uva));
 	    
+	    System.out.print("Digite a inicial do seu nome: ");
+        char nome = entrada.next().charAt(0);
+	   
+	    System.out.print("Digite o valor que voce tem no banco: ");
+	    double banco = entrada.nextDouble();
 	    
+	    System.out.print("Digite o valor da sua divida: ");
+	    double divida = entrada.nextDouble();
+	    
+	    System.out.println("Valor que sobrou apos a divida: " + (banco - divida));
+	    
+	    System.out.print("Digite o valor do produto:");
+	    float produto = entrada.nextFloat();
+	    
+	    System.out.print("Digite a quantidade de parcelas:");
+	    float parcelas = entrada.nextFloat();
+	    
+	    System.out.println("Valor de cada parcela:" + (produto / parcelas));
+	    
+	    System.out.print("Digite sua data de aniversario:");
+	    long aniversario = entrada.nextLong();
 	    
 	    
 	}
