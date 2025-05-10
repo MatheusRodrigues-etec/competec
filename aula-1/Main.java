@@ -8,7 +8,7 @@ public class Main {
        
       
         
-        System.out.println("andre" != "matheus");
+       System.out.println("andre" != "matheus");
         
        System.out.println("As idades são iguais?");
        
@@ -20,9 +20,9 @@ public class Main {
        boolean chovendo = false;
        boolean relampejando = false;
        boolean diaEnsolarado = true;
+       
        if (chovendo&&relampejando){
-        
-        System.out.println("Melhor nao sair de casa");        
+       System.out.println("Melhor nao sair de casa");        
        }
        
        else if (chovendo||relampejando){
@@ -34,15 +34,20 @@ public class Main {
        }
        
        boolean macarrão = false;
-       boolean estrogonofe = true;
+       boolean estrogonofe = false;
        
-       if (macarrão||estrogonofe){
+       if (macarrão&&estrogonofe){
        System.out.println("Vou ficar muito feliz!!!");
        }
         
-        
-        
-        
+       else if (macarrão||estrogonofe){
+       System.out.println("vou ficar um pouco feliz");
+       }
+       
+       else{
+       System.out.println("Nem vou almoçar");
+       }
+       
        
     }
 }
