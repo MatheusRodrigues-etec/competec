@@ -1,26 +1,46 @@
-/******************************************************************************
+import java.util.Scanner;
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
-public class Main
-{
-	public static void main(String[] args) {
-	    boolean estudei, dormiBem;
-	    
-	    estudei = ;
-	    dormiBem = ;
-	    
-	    if(estudei && dormiBem) {
-	       System.out.pritnln("Gabaritei")
-	    
-	    
-	    
-	    
-	    
-		System.out.println("Hello World");
-	}
+public class Main {
+    public static void main(String[] args) {
+        
+       Scanner entrada = new Scanner (System.in);
+       /*
+       int y = 0;
+       String nome = entrada.nextLine();
+       
+       while(y < 5) {
+            System.out.println(nome);
+            y++;
+       }
+       
+       
+       
+       
+       int x = 1;
+       int soma = 0;
+       while (x <= 100) {
+           soma += x;
+           x++;
+       }
+       
+       System.out.println("Valor total:" +soma);
+       */
+      
+      // tabuada * 1
+      // tabuada * 2
+      // tabuada * 3
+      // ...
+      // tabuada * 10
+      
+      int tabuada = entrada.nextInt();
+      for (int i = 1; i <= 10; i++) {
+          System.out.println( i*tabuada);
+      }
+      
+     
+      
+      
+      
+    }
+    
 }
