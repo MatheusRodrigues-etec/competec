@@ -1,3 +1,4 @@
+/*
 import java.util.Scanner;
 
 public class Main {
@@ -25,4 +26,29 @@ public class Main {
         System.out.print("Data de aniversário (ex: 20050510): ");
         long aniversario = entrada.nextLong();
     }
+}
+*/
+
+import java.util.Scanner;
+
+public class Main {  
+    public static void main (String[] args) {
+        Scanner entrada = new Scanner (System.in);
+       
+        System.out.print("Digite um numero:");
+        double numero1 = entrada.nextDouble();
+        
+        System.out.print("Digite outro numero:");
+        double numero2 = entrada.nextDouble();
+        
+        System.out.println("A soma de " + numero1 + " e " + numero2 + " é: " + (numero1 + numero2));
+        System.out.println("A Subtração de " + numero1 + " e " + numero2 + " é: " + (numero1 - numero2));
+        System.out.println("A Multiplicação de " + numero1 + " e " + numero2 + " é: " + (numero1 * numero2));
+        System.out.println("A divisão de " + numero1 + " e " + numero2 + " é: " + (numero1 / numero2));
+        
+    }
+    
+    
+    
+    
 }
