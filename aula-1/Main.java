@@ -1,3 +1,4 @@
+/*
 import java.util.Scanner;
 
 public class Main {
@@ -46,6 +47,48 @@ public class Main {
        
        else{
        System.out.println("Nem vou almoçar");
+           */
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+     
+     Scanner entrada = new Scanner(System.in);
+      /*
+      System.out.print("Digite sua idade: ");
+      int idade = entrada.nextInt();  
+        
+      if (idade < 12) { 
+          System.out.println("Menor de idade");
+      }  else if (idade >= 12 && idade < 18) {   
+          System.out.println("Adolescente");
+      }  else if (idade >= 18 && idade < 60) {   
+          System.out.println("Adulto");
+      }  else if (idade >= 60) {   
+          System.out.println("Idoso");
+      }
+        */
+        
+       System.out.print("Digite o nome do produto: "); 
+        String nome = entrada.nextLine();
+        
+       System.out.print("Digite a categoria (1: comida, 2: eletronicos, 3: vestuário): "); 
+        int categoria = entrada.nextInt();
+        
+       if (categoria == 1) {
+            System.out.println("O produto " + nome + " pertence à categoria: Alimentação.");
+        } else if (categoria == 2) {
+            System.out.println("O produto " + nome + " pertence à categoria: Tecnologia.");
+        } else if (categoria == 3) {
+            System.out.println("O produto " + nome + " pertence à categoria: Moda.");
+        } else {
+            System.out.println("Categoria inválida para o produto " + nome + ".");
+        }
+
+        entrada.close();
+    }
+}
        }
        
        
