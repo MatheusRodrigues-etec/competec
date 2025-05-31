@@ -1,3 +1,4 @@
+/*
 import java.util.Scanner;
 
 public class Main {
@@ -36,7 +37,31 @@ public class Main {
       for (int i = 1; i <= 10; i++) {
           System.out.println( i*tabuada);
       }
+      */
+          import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+     
+     Scanner entrada = new Scanner(System.in);
+      /*
+      for (int pares = 2; pares <= 20; pares += 2) {    
+          System.out.println("Os pares são: " + pares);
+      }
+      */
       
+      int n = 10;
+      
+      while (n > 0) {   
+          System.out.println("Descendo...: " + n);
+          n--;
+      }
+          System.out.println("Numeros Esgotados.");
+      
+      
+      
+    }
+}
      
       
       
